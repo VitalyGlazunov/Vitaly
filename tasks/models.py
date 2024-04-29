@@ -12,7 +12,6 @@ class Project(models.Model):
 
 
 class Task(models.Model):
-    # Кортеж из возможных статусов задачи
     STATUS_CHOICES = [
         ('New', 'Новая'),
         ('In_progress', 'В работе'),

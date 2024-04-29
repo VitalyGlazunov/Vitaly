@@ -6,7 +6,6 @@ from django.views import View
 from django.views.generic import ListView, DetailView
 
 
-
 def index(request):
     projects_list_url = reverse('tasks:projects_list')
     quality_index_url = reverse('quality_control:main_page')
