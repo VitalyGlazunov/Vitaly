@@ -16,5 +16,6 @@ urlpatterns = [
     path('features/', views.FeatureRequestListView.as_view(), name='feature_list'),
     path('bugs/<int:bug_id>/', views.BugReportDetailView.as_view(), name='bug_detail'),
     path('features/<int:feature_id>/', views.FeatureRequestDetailView.as_view(), name='feature_detail'),
-
+    path('add_bug_report/', views.add_bug_report, name='add_bug_report'),
+    path('add_feature_request/', views.add_feature_request, name='add_feature_request'),
 ]
