@@ -46,7 +46,7 @@ class FeatureRequest(models.Model):
     STATUS_REQUEST = [
         ('Consideration', 'Рассмотрение'),
         ('Accepted', 'Принято'),
-        ('Rejected', 'Отклонение x3'),
+        ('Rejected', 'Отклонение'),
     ]
 
     PRIORITIES_REQUEST = [
